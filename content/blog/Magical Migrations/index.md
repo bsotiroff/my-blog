@@ -1,20 +1,22 @@
 ---
-title: New Beginnings
-date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+title: Making Magical db Migrations in rails
+date: "2019-09-13"
+description: 
 ---
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+## The Magic of Rails
 
-## On deer horse aboard tritely yikes and much
+generating database migrations is one of the powerful and "magical" conveniences of using Rails. 
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+Rails can generate the migration file for you
+
+Let's say you want to update your model and add a new foreign key. You'll have to update a column in your database model, and add the associations. Let's say you have a comments table that currently isn't associated to a posts table on a blog website. 
+
+How to tell if your methods are reversible? Consult the following documentation for a list of reversible migrations. The simpler actions in general are all reversible. 
+
+## What Rails is actually doing for you
+
+Rails is creating a migration file in db/migrate folder. 
 
 - This however showed weasel
 - Well uncritical so misled
