@@ -1,9 +1,9 @@
 ---
-title: Active Record Queries - A practical guide
+title: Conditional Where clauses and the Wonder of ActiveRecord querying
 date: "2019-12-30"
 ---
 
-# The Bad Code that got me inspired
+# The Bad Code that sparked my curiosity
 This article starts with a really bad piece of code I wrote when I needed to conditionally add a where clause to an Active Record Query.
 
 I wrote something like this:
@@ -22,7 +22,7 @@ I only want the where clause associated with the tag if a tag value is present (
 
 I knew this code was bad, but I didn't know a pattern that could achieve this same thing.
 
-# The elegant solution
+# An Elegant Solution
 
 ```ruby{numberLines: true}
 def index
