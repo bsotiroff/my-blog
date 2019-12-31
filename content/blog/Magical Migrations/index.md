@@ -14,6 +14,13 @@ Let's say you want to update your model and add a new foreign key. You'll have t
 
 How to tell if your methods are reversible? Consult the following documentation for a list of reversible migrations. The simpler actions in general are all reversible. 
 
+
+
+```javascript{numberLines: true}
+const numberLines = true;
+//I totally forget how to code in Javascript
+```
+
 ## What Rails is actually doing for you
 
 Rails is creating a migration file in db/migrate folder. 
