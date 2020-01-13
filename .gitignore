@@ -58,6 +58,9 @@ typings/
 .cache/
 public
 
+# incompleted blogposts
+drafts
+
 # Mac files
 .DS_Store
 
